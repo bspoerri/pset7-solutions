@@ -34,5 +34,4 @@ plt.ylabel("Frequency")
 plt.title("Frequency Distribution of Diamonds by Length")
 # exclude bins with no values
 plt.xlim(3, 10) 
-plt.show()
 plt.savefig("problem_2b_result.png")
