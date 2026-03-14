@@ -23,15 +23,16 @@ plt.title('Distribution of Diamonds by Cut')
 plt.savefig("problem_2a_result.png")
 
 # question 2.2
-
+plt.figure()
 # create df with just length
 length_only = diamonds["x"]
 
 # plot histogram with prescribed styling; density param used for frequency
-plt.hist(length_only, density=True, color="lightblue")
+plt.hist(length_only, density=True, color="lightblue", edgecolor="black")
 plt.xlabel("Length (in mm)")
 plt.ylabel("Frequency")
 plt.title("Frequency Distribution of Diamonds by Length")
 # exclude bins with no values
 plt.xlim(3, 10) 
+plt.show()
 plt.savefig("problem_2b_result.png")
