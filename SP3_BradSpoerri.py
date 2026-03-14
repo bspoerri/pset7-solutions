@@ -22,5 +22,5 @@ plt.title("Price vs. Carat of Diamonds")
 plt.grid(axis='y')
 # add text at position (3, 7000)
 plt.text(3, 7000, 'Outlier') 
-plt.show()
+plt.savefig("problem_3_result.png")
 

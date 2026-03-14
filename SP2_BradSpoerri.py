@@ -20,7 +20,7 @@ plt.bar(cut_quality_dist.index, cut_quality_dist, width=0.6, color="grey")
 plt.xlabel('Cut Quality')
 plt.ylabel('Number of Diamonds')
 plt.title('Distribution of Diamonds by Cut')
-plt.show()
+plt.savefig("problem_2a_result.png")
 
 # question 2.2
 
@@ -34,4 +34,4 @@ plt.ylabel("Frequency")
 plt.title("Frequency Distribution of Diamonds by Length")
 # exclude bins with no values
 plt.xlim(3, 10) 
-plt.show()
+plt.savefig("problem_2b_result.png")

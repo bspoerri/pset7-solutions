@@ -32,4 +32,4 @@ ax2.set_xlabel("x for g(x)")
 ax2.set_ylabel("g(x)")
 
 # save figure to file
-plt.savefig("g_and_f.png")
+plt.savefig("problem_1_result.png")

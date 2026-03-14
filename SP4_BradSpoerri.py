@@ -22,4 +22,4 @@ plt.pie(cut_quality_dist,
         colors=['crimson', 'orange', 'gold', 'limegreen', 'forestgreen'])
 plt.title("Proportion of Diamonds by Cut Quality")
 plt.legend(labels=cut_quality_dist.index, loc='lower right')
-plt.show()
+plt.savefig("problem_4_result.png")
