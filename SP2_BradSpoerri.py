@@ -25,10 +25,10 @@ plt.show()
 # question 2.2
 
 # create df with just length
-length_freq = diamonds["x"]
+length_only = diamonds["x"]
 
 # plot histogram with prescribed styling; density param used for frequency
-plt.hist(length_freq, density=True, color="lightblue")
+plt.hist(length_only, density=True, color="lightblue")
 plt.xlabel("Length (in mm)")
 plt.ylabel("Frequency")
 plt.title("Frequency Distribution of Diamonds by Length")
